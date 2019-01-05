@@ -20,7 +20,7 @@ Well, hard to say, it's been a long time since I last time mess with it. Back th
 
 limitations
 -------------
-The main constraint was the memory size of the arduino, which was prevented me to retrieve query results for tables with many columns on arduino nano (which has only 2kb of memory). And bear in mind that SQL strings are wide-character, which means each character takes 2 bytes of space.
+The main constraint was the memory size of the arduino, which was prevented me to retrieve query results for tables with many columns on arduino nano (which has only 2kb of memory). And bear in mind that SQL strings are wide-character, which means each character takes 2 bytes of space, queries, strings in result sets will take `twice as more` space. 
 
 license
 -------------
