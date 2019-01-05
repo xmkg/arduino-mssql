@@ -7,7 +7,7 @@ A TDS 9.0 implementation for Arduino (using UIPEthernet or Ethernet), which I've
 
 why you did this?
 -------------
-At first, this was a bet between my friend and I, he was working on a project involving Arduino, which he needed to access MSSQL databases later on. He throughy searched the web, but could not find any implementations regarding connecting MSSQL via Arduino. (only MYSQL drivers was available back then). Then he mentioned it to me and claimed that this could not be done, and I said "We'll see about that", so there we are. Although very obsolete, it is a basic implementation which you can use to run queries like "SELECT, INSERT, UPDATE and DELETE". I did not push it to it's limits though. 
+At first, this was a bet between my friend and I back in college, he was working on a project involving Arduino, which he needed to access MSSQL databases later on. He throughy searched the web, but could not find any implementations regarding connecting MSSQL via Arduino. (only MYSQL drivers was available back then). Then he mentioned it to me and claimed that this could not be done, and I said "We'll see about that", so there we are. Although very obsolete, it is a basic implementation which you can use to run queries like "SELECT, INSERT, UPDATE and DELETE". I did not push it to it's limits though. 
 
 how can I use it?
 -------------
