@@ -3,7 +3,7 @@ arduino-mssql
 
 what is this?
 -------------
-A TDS 9.0 implementation for Arduino (using UIPEthernet or Ethernet), which I've made back in days (very obsolete). 
+A TDS 7.0 implementation for Arduino (using UIPEthernet or Ethernet), which I've made back in days (very obsolete). 
 
 why you did this?
 -------------
@@ -11,7 +11,7 @@ At first, this was a bet between my friend and I back in college, he was working
 
 how can I use it?
 -------------
-Take a look into `sqlard-test.cpp` file. It might give you an idea.
+Take a look into `sqlard-test.cpp` and `sqlard-test.ino` files. They might give you an idea.
 
 does it work?
 -------------
