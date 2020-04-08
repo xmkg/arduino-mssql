@@ -3,7 +3,7 @@
 
 
 uint8_t Ethernet_MacAddr[6] = { 0x74,0x69,0x69,0x2D,0x30,0x31 }; /* MAC ADRESİ */
-static byte Static_IPAddr[] = { 172,16,1,2 };            
+static byte Static_IPAddr[] = { 172,16,1,2 }; // What does exactly Static_IPAddr stand for?            
 static byte Gateway_IPAddr[] = { 172,16,1,1 };
 static byte Subnet_Mask[] = { 255,255,0,0 };
 EthernetClient client;
