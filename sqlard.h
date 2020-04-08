@@ -297,6 +297,7 @@ public:
 #endif
 
 	static int freeRam(const char * who) {
+		// I got some compilation errors please look my comments
 		extern int __heap_start, *__brkval;
 		int v;
 		int fr = (int)&v - (__brkval == 0 ? (int)&__heap_start : (int)__brkval);
@@ -1115,7 +1116,7 @@ public:
 		void maintain() {
 			while (!m_pEthClient->connected()) {
 				Serial.println("retry connect");
-				/* Bağlanana kadar dene. */
+				/* BaÃ°lanana kadar dene. */
 				if (connect()) {
 					login();
 				}
