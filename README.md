@@ -1,6 +1,10 @@
 arduino-mssql
 =============
 
+# THIS PROJECT IS NOW DEPRECATED; PLEASE USE `TDSLITE` INSTEAD!
+
+# https://github.com/mustafakemalgilor/tdslite
+
 what is this?
 -------------
 A TDS 7.0 implementation for Arduino (using UIPEthernet or Ethernet), which I've made back in days (very obsolete). 
